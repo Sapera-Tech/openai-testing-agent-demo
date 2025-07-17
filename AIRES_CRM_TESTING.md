@@ -29,3 +29,61 @@ A typical workflow for testing Aires CRM would be:
 4. Review the results and logs to confirm that the expected behaviors occurred.
 
 You can customize the prompts to cover various user roles, from basic login tests to more complex workflows (e.g. contact management, inventory handling, or reporting) like those outlined in the test plan above.
+
+## PXP ReactJS Admin - Comprehensive Q/A Test List
+
+### 1. Authentication & Login Tests
+- **Test 1.1: Sales Rep Login** – Verify Sales Rep can log in and access the dashboard
+- **Test 1.2: Admin Login** – Verify Admin can log in and access the admin dashboard
+- **Test 1.3: Invalid Login** – Verify invalid credentials show an error
+
+### 2. Contact Management Tests
+- **Test 2.1: Create New Buyer Contact**
+- **Test 2.2: Create New Broker Contact**
+- **Test 2.3: Edit Existing Contact**
+- **Test 2.4: Delete Contact**
+- **Test 2.5: Search and Filter Contacts**
+- **Test 2.6: Bulk Contact Import**
+
+### 3. Inventory Management Tests
+- **Test 3.1: View Unit Inventory**
+- **Test 3.2: Edit Unit Information**
+- **Test 3.3: Add New Unit**
+- **Test 3.4: Manage Parking Inventory**
+- **Test 3.5: Manage Storage Inventory**
+
+### 4. Dashboard & Reporting Tests
+- **Test 4.1: Sales Rep Dashboard**
+- **Test 4.2: Admin Dashboard**
+- **Test 4.3: Sales Reports**
+- **Test 4.4: Contact Reports**
+
+### 5. Email & Communication Tests
+- **Test 5.1: Send Individual Email**
+- **Test 5.2: Email Campaign Creation**
+- **Test 5.3: Email Template Management**
+- **Test 5.4: Email Inbox Management**
+
+### 6. User Management Tests (Admin Only)
+- **Test 6.1: Create New Sales Rep**
+- **Test 6.2: Edit User Permissions**
+- **Test 6.3: Delete User**
+
+### 7. Project Management Tests
+- **Test 7.1: View Project Details**
+- **Test 7.2: Edit Project Information**
+
+### 8. Advanced Features Tests
+- **Test 8.1: Contract Signing**
+- **Test 8.2: Meeting Scheduling**
+- **Test 8.3: Task Management**
+
+### 9. Mobile Responsiveness Tests
+- **Test 9.1: Mobile Dashboard**
+- **Test 9.2: Mobile Contact Management**
+
+### 10. Performance & Error Handling Tests
+- **Test 10.1: Large Data Set Handling**
+- **Test 10.2: Error Handling**
+
+These scenarios can be used as prompts for the CUA-powered test agent. Set the app URL to `https://aires-staging.vercel.app` in the frontend UI and run each test individually to verify functionality.
